@@ -7,6 +7,8 @@ import Forgot from '../components/ForgotPassword';
 import Home from '../components/Home';
 import PatientList from '../components/PatientList';
 import AppointmentBooking from '../components/AppointmentBooking';
+import PharmacyOrder from '../components/PharmacyOrder';
+
 
 export default function Index() {
   return (
@@ -17,7 +19,8 @@ export default function Index() {
       {/* <Forgot /> */}
       {/* <Home /> */}
       {/* <PatientList /> */}
-      <AppointmentBooking />
+      {/* <AppointmentBooking /> */}
+      <PharmacyOrder />
 
     </View>
   );
