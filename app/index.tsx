@@ -5,6 +5,8 @@ import Login from '../components/Login';
 import Signup from '../components/Signup'
 import Forgot from '../components/ForgotPassword';
 import Home from '../components/Home';
+import PatientList from '../components/PatientList';
+
 
 export default function Index() {
   return (
@@ -13,7 +15,9 @@ export default function Index() {
       {/* <Login /> */}
       {/* <Signup /> */}
       {/* <Forgot /> */}
-      <Home />
+      {/* <Home /> */}
+      <PatientList />
+
     </View>
   );
 }

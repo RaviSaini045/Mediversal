@@ -29,7 +29,7 @@ export default function Home() {
 
   const menuItems = [
     { id: 1, title: 'Patient List' },
-    { id: 2, title: 'Appointments' },
+    { id: 2, title: 'Get Appointments' },
     { id: 3, title: 'Online Orders' },
     { id: 4, title: 'Contact Us' },
   ];
