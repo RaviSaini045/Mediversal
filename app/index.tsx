@@ -8,6 +8,8 @@ import Home from '../components/Home';
 import PatientList from '../components/PatientList';
 import AppointmentBooking from '../components/AppointmentBooking';
 import PharmacyOrder from '../components/PharmacyOrder';
+import HomeCare from '../components/HomeCare'
+
 
 
 export default function Index() {
@@ -20,7 +22,9 @@ export default function Index() {
       {/* <Home /> */}
       {/* <PatientList /> */}
       {/* <AppointmentBooking /> */}
-      <PharmacyOrder />
+      {/* <PharmacyOrder /> */}
+      <HomeCare />
+
 
     </View>
   );
